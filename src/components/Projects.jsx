@@ -8,7 +8,7 @@ const Projects = () => {
   const {spanish, setSpanish} = useContext(LenguajeContext);
 
   return (
-     <section id='projects' className="main-projects-container">
+    <section id='projects' className="main-projects-container">
         <h2>{spanish ? "PROYECTOS" : "PROJECTS"}</h2>
         <div className="projects-cards-container">
           {

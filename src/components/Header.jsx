@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import '@styles/Header.scss'
 import LenguajeContext from "@context/LenguajeContext";
 
@@ -14,8 +14,10 @@ const Header = () => {
 
   const handlerLenguaje = () => {
     setSpanish(!spanish)
-    console.log(spanish)
+    // console.log(spanish)
   }
+
+  useEffect(() => spanish ? console.log("Idioma: Espanol") : console.log("Lenguaje: English"), [handlerLenguaje])
 
   return (
     <div className="header">

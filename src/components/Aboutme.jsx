@@ -7,13 +7,13 @@ const Aboutme = () => {
     const { spanish, setSpanish } = useContext(LenguajeContext)
     return (
         <div>
-            {/* <h1 id="home" class="myName">Krloz Medina</h1> */}
-            <div class="container-main">
-                <section class="main-title-container">
-                    <div class="main-title--text">
+            {/* <h1 id="home" className="myName">Krloz Medina</h1> */}
+            <div className="container-main">
+                <section className="main-title-container">
+                    <div className="main-title--text">
                         {spanish
                             ?
-                            <p class="main-title--description">
+                            <p className="main-title--description">
                                 Hola! Soy
                                 <span> Carlos Alidio Medina López </span>
                                 , Tecnólogo en Electrónica, culminando mi carrera profesional como
@@ -26,7 +26,7 @@ const Aboutme = () => {
                                 <span> Desarrollador Web</span>.
                             </p>
                             :
-                            <p class="main-title--description">
+                            <p className="main-title--description">
                                 Hi! I'm
                                 <span> Carlos Alidio Medina López </span>
                                 , Electronics Technologist, culminating my professional career as
@@ -39,13 +39,13 @@ const Aboutme = () => {
                         }
                     </div>
 
-                    <img src="https://i.imgur.com/LKFGgrC.png" class="main-title--photo"></img >
+                    <img src="https://i.imgur.com/LKFGgrC.png" className="main-title--photo"></img >
                 </section>
 
-                <section id="aboutme" class="main-aboutme-container">
+                <section id="aboutme" className="main-aboutme-container">
                     <h2>{spanish ? "SOBRE MI" : "ABOUT ME"}</h2>
 
-                    <p class="main-aboutme--text">
+                    <p className="main-aboutme--text">
                         {
                             spanish
                                 ?
@@ -54,7 +54,7 @@ const Aboutme = () => {
                                 "Electronics Technologist, soon to graduate as a Control and Automation Engineer, with knowledge of several programming languages ​​and strengthening the language in web development. Currently holding the position of repair center operator in a multinational of digital payment solutions, and with experience in the energy sector, interrupted systems (UPS) and with knowledge of renewable energy."
                         }
                     </p>
-                    <p class="main-aboutme--text">
+                    <p className="main-aboutme--text">
                         {
                             spanish
                                 ?
@@ -63,7 +63,7 @@ const Aboutme = () => {
                                 "I am passionate about the idea of ​​leading digital transformation projects for large companies, optimizing their production processes. Being able to contribute to small and medium-sized companies to obtain low-cost production technology solutions."
                         }
                     </p>
-                    <p class="main-aboutme--text">
+                    <p className="main-aboutme--text">
                         {
                             spanish
                                 ?
