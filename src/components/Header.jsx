@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
-import LenguajeContext from "../context/LenguajeContext";
+import LenguajeContext from "@context/LenguajeContext";
 
 // import '@styles/Header.scss'
-import styles from '../styles/Header.module.scss'
+import styles from '@styles/Header.module.scss'
 
 const Header = () => {
   const [menu, setMenu] = useState(false)
